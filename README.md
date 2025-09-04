@@ -139,7 +139,7 @@ We covered three serial protocols:
 
 All sketches follow this template:
 
-``cpp
+```c
 void setup() {
   // Runs once at startup
 }
@@ -184,7 +184,7 @@ void loop() {
   digitalWrite(13, LOW);
   delay(500);
 }
-
+```
 
 
 ## Practice and Simulation
