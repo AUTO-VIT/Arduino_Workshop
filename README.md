@@ -12,6 +12,8 @@ Enabling building simple circuits, writing basic sketches in the Arduino IDE, an
 
 ## Microprocessors vs. Microcontrollers
 
+<img width="550" height="313" alt="image" src="https://github.com/user-attachments/assets/7b842433-f7de-4093-ba27-78cb4fd2bc09" />
+
 A clear understanding of these two classes of chips helps in choosing the right platform.
 
 | Feature                | Microprocessor               | Microcontroller                     |
@@ -34,6 +36,8 @@ Unlike microprocessors, microcontrollers excel at real-time control and low-powe
 
 ## Why Arduino?
 
+<img width="540" height="610" alt="image" src="https://github.com/user-attachments/assets/47371bc7-7f5b-43d6-ba29-5948a0a719ad" />
+
 Arduino was chosen for its:  
 - Open-source electronics platform and schematics  
 - Beginner-friendly IDE and simplified programming model  
@@ -53,7 +57,9 @@ The UNO board comprises:
 - 16 MHz crystal oscillator  
 - USB interface for programming and power  
 - Power jack (7–12 V input) and voltage regulator  
-- Reset button and onboard LED on pin 13  
+- Reset button and onboard LED on pin 13
+
+  <img width="576" height="793" alt="image" src="https://github.com/user-attachments/assets/37df5fe8-b07d-4ae1-8867-208dd399efcb" />
 
 ---
 
@@ -72,7 +78,9 @@ Before wiring circuits, juniors should recognize these parts:
 Arduino pins handle:  
 - Digital I/O: HIGH (5 V) or LOW (0 V)  
 - Analog input: Reads voltage between 0–5 V via ADC (0–1023)  
-- PWM output: Simulates analog voltage by switching digital pins at varying duty cycles  
+- PWM output: Simulates analog voltage by switching digital pins at varying duty cycles
+
+  <img width="527" height="854" alt="image" src="https://github.com/user-attachments/assets/96b6ccba-a8a5-4a44-81d8-66bfa73c22f5" />
 
 ---
 
@@ -82,6 +90,8 @@ PWM toggles a digital pin between HIGH and LOW to create an average voltage leve
 Duty cycle defines the percentage of time the signal is HIGH in each cycle.  
 Common uses include dimming LEDs, controlling motor speed, and generating audio tones.
 
+<img width="572" height="718" alt="image" src="https://github.com/user-attachments/assets/f3dae23b-34e2-462a-ae6a-103cdd2b9b84" />
+
 ---
 
 ## Communication Protocols
@@ -90,17 +100,23 @@ We covered three serial protocols:
 
 ### UART (Serial)
 
+<img width="525" height="512" alt="image" src="https://github.com/user-attachments/assets/5e68f776-9ae2-485c-9bab-8f0e7e253cde" />
+
 - Full-duplex, asynchronous  
 - Two wires: TX (transmit) and RX (receive)  
 - Configurable baud rate (e.g., 9600 bps)  
 
 ### I2C
 
+<img width="512" height="591" alt="image" src="https://github.com/user-attachments/assets/39d09816-6579-42d1-ae01-98cbd6f25d6a" />
+
 - Two-wire, half-duplex: SDA (data), SCL (clock)  
 - Multi-master, multi-slave  
 - Each device has a unique 7-bit address  
 
 ### SPI
+
+<img width="593" height="608" alt="image" src="https://github.com/user-attachments/assets/032848c7-6ae3-4716-be12-dbdf0ad0fcf3" />
 
 - Four-wire, full-duplex: MOSI, MISO, SCK, SS (chip select)  
 - One master, multiple slaves  
@@ -119,18 +135,34 @@ We covered three serial protocols:
 ## Basic Sensors, Actuators, and Drivers
 
 ### Sensors  
-- Temperature (e.g., LM35)  
-- Light (LDR)  
-- Ultrasonic distance (HC-SR04)  
+- Temperature (e.g., LM35)
+
+  <img width="300" height="1000" alt="image" src="https://github.com/user-attachments/assets/72ad7254-435f-45d9-b4fd-f068e21cf581" />
+- Light (LDR)
+   
+  <img width="352" height="1852" alt="image" src="https://github.com/user-attachments/assets/ea636d5a-60b1-4b95-97ac-0a1fac82a206" />
+- Ultrasonic distance (HC-SR04)
+  
+  <img width="300" height="2380" alt="image" src="https://github.com/user-attachments/assets/6d32d0c4-40fe-4e8d-a726-70d6c6603d22" />
 
 ### Actuators  
-- DC motors  
-- Servo motors  
-- Buzzer  
+- DC motors
+  
+  <img width="300" height="1373" alt="image" src="https://github.com/user-attachments/assets/1550aeb5-5c06-4c34-a483-b91e06d22329" />
+- Servo motors
+  
+  <img width="300" height="1254" alt="image" src="https://github.com/user-attachments/assets/d1996828-8619-4c4b-b219-8b0aa4099b13" />
+- Buzzer
+  
+  <img width="350" height="1250" alt="image" src="https://github.com/user-attachments/assets/9512cb51-5e46-4974-924f-3a91ffa9c518" />
 
 ### Drivers  
-- Transistors (e.g., TIP120) for switching high currents  
-- Motor driver ICs (e.g., L298N) to control direction and speed  
+- Transistors (e.g., TIP120) for switching high currents
+  
+  <img width="315" height="449" alt="image" src="https://github.com/user-attachments/assets/fc67710d-738c-443f-8509-fe5f8678844d" />
+- Motor driver ICs (e.g., L298N) to control direction and speed
+  
+  <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/5f7d88c4-0382-47b0-8181-fd60ae91bbbc" />  
 
 ---
 
